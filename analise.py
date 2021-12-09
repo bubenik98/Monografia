@@ -1,3 +1,10 @@
+'''
+----------------------------------------------------------------------------------------------------------
+Usado para criar um vídeo, após rodar a simulação (arquivo Main.py)
+----------------------------------------------------------------------------------------------------------
+'''
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
