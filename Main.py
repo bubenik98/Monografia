@@ -58,7 +58,8 @@ archives = []
 path = os.getcwd()
 path = path[0:len(path) - 10]
 print(path)
-os.mkdir(path + 'Imagens/')
+if not 'Imagens' in os.listdir(path):
+    os.mkdir(path + 'Imagens/')
 for frame in range(t):
     start = tt.time()
     day_index = int(frame/num_frames_for_day)
